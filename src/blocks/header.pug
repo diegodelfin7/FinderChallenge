@@ -1,0 +1,6 @@
+header(id="header")
+	h1.logo Finder challenge
+	form.search-form(action="#", onsubmit="return submitForm(event);")
+		input(id="searchInputText", onkeyup="enabledInput(this.value)")
+		input(type="submit", id="btnSearch", disabled ="disabled" , value="Buscar")
+	a.button-save-search(href="#") Guardar búsqueda

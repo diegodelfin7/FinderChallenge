@@ -1,0 +1,47 @@
+aside#aside
+	section.section-aside
+		h3 Búsquedas guardadas
+		nav
+			ul
+				li
+					a(href="#") terror puro
+				li
+					a(href="#") search drama
+				li
+					a(href="#") comedias en ingles
+	section.section-aside
+		h3 Categories
+		nav
+			ul
+				li Todos
+				each val in ['Terror', 'Comedia' , 'Drama']
+					li
+						a(href="#")= val
+	section.section-aside
+		h3 Idioma
+		nav
+			ul
+				li Todos
+				each val in ['Inglés', 'Español', 'Portugués']
+					li
+						a(href="#")= val
+	section.section-aside
+		h3 Publicación
+		nav
+			ul
+				li Todos
+				each val in ['Hoy', 'Hace una semana','Hace un mes', 'Hace un año']
+					li
+						a(href="#")= val
+	section.section-aside
+		h3 Presentación
+		nav
+			ul
+				each val in ['Impreso', 'Digital']
+					li
+						a(href="#")= val
+				li Impreso y digital
+
+
+
+

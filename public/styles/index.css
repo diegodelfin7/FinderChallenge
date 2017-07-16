@@ -1,0 +1,63 @@
+* {
+  font-family: "Proxima Nova";
+}
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+}
+aside#aside {
+  float: left;
+  width: 24%;
+}
+aside#aside nav ul {
+  list-style-type: none;
+  padding-left: 35px;
+}
+header#header h1.logo {
+  display: inline-block;
+}
+header#header form.search-form {
+  display: inline-block;
+  margin-left: 60px;
+}
+header#header a.button-save-search {
+  margin-left: 15px;
+}
+section#main {
+  float: right;
+  width: 76%;
+}
+section#main .flex-container {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  width: 100%;
+}
+section#main .flex-container .flex-item {
+  width: 33%;
+}
+section#main .flex-container .flex-item .square {
+  background: #d8d8d8;
+  height: 150px;
+  width: 150px;
+}
+section#main .flex-container .flex-item .square p.main,
+section#main .flex-container .flex-item .square p.no-main {
+  line-height: 150px;
+  text-align: center;
+}
+section#main .flex-container .flex-item .square p.main {
+  font-size: 12px;
+}
+section#main .flex-container .flex-item .square p.no-main {
+  font-size: 10px;
+}
+.search-form {
+  margin-top: 0px;
+}
+@media only screen and (max-width: 650px) {
+  .search-form {
+    display: none;
+  }
+}

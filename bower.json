@@ -21,5 +21,8 @@
   "dependencies": {
     "pure": "^0.6.2",
     "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "awesomplete": "https://github.com/LeaVerou/awesomplete.git#gh-pages"
   }
 }
